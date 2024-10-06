@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F037C55C2CB2EB6300560DA9 /* todaylastyearApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F037C55B2CB2EB6300560DA9 /* todaylastyearApp.swift */; };
 		F037C55E2CB2EB6300560DA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F037C55D2CB2EB6300560DA9 /* ContentView.swift */; };
 		F037C5602CB2EB6400560DA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F037C55F2CB2EB6400560DA9 /* Assets.xcassets */; };
 		F037C5632CB2EB6400560DA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F037C5622CB2EB6400560DA9 /* Preview Assets.xcassets */; };
@@ -15,7 +14,6 @@
 
 /* Begin PBXFileReference section */
 		F037C5582CB2EB6300560DA9 /* todaylastyear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todaylastyear.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F037C55B2CB2EB6300560DA9 /* todaylastyearApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todaylastyearApp.swift; sourceTree = "<group>"; };
 		F037C55D2CB2EB6300560DA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F037C55F2CB2EB6400560DA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F037C5622CB2EB6400560DA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -51,7 +49,6 @@
 		F037C55A2CB2EB6300560DA9 /* todaylastyear */ = {
 			isa = PBXGroup;
 			children = (
-				F037C55B2CB2EB6300560DA9 /* todaylastyearApp.swift */,
 				F037C55D2CB2EB6300560DA9 /* ContentView.swift */,
 				F037C55F2CB2EB6400560DA9 /* Assets.xcassets */,
 				F037C5612CB2EB6400560DA9 /* Preview Content */,
@@ -138,7 +135,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F037C55E2CB2EB6300560DA9 /* ContentView.swift in Sources */,
-				F037C55C2CB2EB6300560DA9 /* todaylastyearApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +271,8 @@
 				DEVELOPMENT_TEAM = S9R746AVUP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to provide local weather information.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +302,8 @@
 				DEVELOPMENT_TEAM = S9R746AVUP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to provide local weather information.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

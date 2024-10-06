@@ -1,5 +1,5 @@
 //
-//  todaylastyearApp.swift
+//  ContentView.swift
 //  todaylastyear
 //
 //  Created by Pedro Marques on 06/10/2024.
@@ -7,11 +7,18 @@
 
 import SwiftUI
 
-@main
-struct todaylastyearApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
+struct ContentView: View {
+    var body: some View {
+        VStack {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundStyle(.tint)
+            Text("Hello, world!")
         }
+        .padding()
     }
+}
+
+#Preview {
+    ContentView()
 }
